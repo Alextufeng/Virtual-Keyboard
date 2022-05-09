@@ -1,18 +1,3 @@
-//const keyboard = [];
-/*function init(){
-    let btn = '';
-    for (let i = 0; i<keyboard.length; i++){
-        btn += `<div class='keys'>+ +</div>`
-    }
-    document.querySelector('keyboard_keys').innerHtml = btn;
-}
-init();
-*/
-document.onkeydown = function(event) {
-    console.log(event);
-    //keyboard.push(event.charCode);
-    //console.log(keyboard);
-}
 
 document.addEventListener('DOMContentLoaded', ()=>{
     let body = document.querySelector('body');
@@ -540,6 +525,372 @@ window.addEventListener('keyup', function(e){
     }
 })
 
+key1.addEventListener('click', function(){
+    key1.classList.toggle('remove');
+    textArea.innerHTML += key1.getAttribute('keyName');
+})
+key2.addEventListener('click', function(){
+    key2.classList.toggle('remove');
+    textArea.innerHTML += key2.getAttribute('keyName');
+})
+key3.addEventListener('click', function(){
+    key3.classList.toggle('remove');
+    textArea.innerHTML += key3.getAttribute('keyName');
+})
+key4.addEventListener('click', function(){
+    key4.classList.toggle('remove');
+    textArea.innerHTML += key4.getAttribute('keyName');
+})
+key5.addEventListener('click', function(){
+    key5.classList.toggle('remove');
+    textArea.innerHTML += key5.getAttribute('keyName');
+})
+key6.addEventListener('click', function(){
+    key6.classList.toggle('remove');
+    textArea.innerHTML += key6.getAttribute('keyName');
+})
+key7.addEventListener('click', function(){
+    key7.classList.toggle('remove');
+    textArea.innerHTML += key7.getAttribute('keyName');
+})
+key8.addEventListener('click', function(){
+    key8.classList.toggle('remove');
+    textArea.innerHTML += key8.getAttribute('keyName');
+})
+key9.addEventListener('click', function(){
+    key9.classList.toggle('remove');
+    textArea.innerHTML += key9.getAttribute('keyName');
+})
+key10.addEventListener('click', function(){
+    key10.classList.toggle('remove');
+    textArea.innerHTML += key10.getAttribute('keyName');
+})
+key11.addEventListener('click', function(){
+    key11.classList.toggle('remove');
+    textArea.innerHTML += key11.getAttribute('keyName');
+})
+key12.addEventListener('click', function(){
+    key12.classList.toggle('remove');
+    textArea.innerHTML += key12.getAttribute('keyName');
+})
+key13.addEventListener('click', function(){
+    key13.classList.toggle('remove');
+    textArea.innerHTML += key13.getAttribute('keyName');
+})
+
+key16.addEventListener('click', function(){
+    key16.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+    textArea.innerHTML += key16.getAttribute('keyName');
+    } else {
+        textArea.innerHTML += key16.getAttribute('lowerCaseName');
+    }
+})
+key17.addEventListener('click', function(){
+    key17.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+    textArea.innerHTML += key17.getAttribute('keyName');
+    } else {
+        textArea.innerHTML += key17.getAttribute('lowerCaseName');
+    }
+})
+key18.addEventListener('click', function(){
+    key18.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key18.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key18.getAttribute('lowerCaseName');
+        }
+})
+key19.addEventListener('click', function(){
+    key19.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key19.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key19.getAttribute('lowerCaseName');
+        }
+})
+key20.addEventListener('click', function(){
+    key20.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key20.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key20.getAttribute('lowerCaseName');
+        }
+})
+key21.addEventListener('click', function(){
+    key21.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key21.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key21.getAttribute('lowerCaseName');
+        }
+})
+key22.addEventListener('click', function(){
+    key22.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key22.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key22.getAttribute('lowerCaseName');
+        }
+})
+key23.addEventListener('click', function(){
+    key23.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key23.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key23.getAttribute('lowerCaseName');
+        }
+})
+key24.addEventListener('click', function(){
+    key24.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key24.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key24.getAttribute('lowerCaseName');
+        }
+})
+key25.addEventListener('click', function(){
+    key25.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key25.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key25.getAttribute('lowerCaseName');
+        }
+})
+key26.addEventListener('click', function(){
+    key26.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key26.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key26.getAttribute('lowerCaseName');
+        }
+})
+key27.addEventListener('click', function(){
+    key27.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key27.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key27.getAttribute('lowerCaseName');
+        }
+})
+key28.addEventListener('click', function(){
+    key28.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key28.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key28.getAttribute('lowerCaseName');
+        }
+})
+
+key30.addEventListener('click', function(){
+    key30.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key30.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key30.getAttribute('lowerCaseName');
+        }
+})
+key31.addEventListener('click', function(){
+    key31.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key31.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key31.getAttribute('lowerCaseName');
+        }
+})
+key32.addEventListener('click', function(){
+    key32.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key32.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key32.getAttribute('lowerCaseName');
+        }
+})
+key33.addEventListener('click', function(){
+    key33.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key33.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key33.getAttribute('lowerCaseName');
+        }
+})
+key34.addEventListener('click', function(){
+    key34.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key34.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key34.getAttribute('lowerCaseName');
+        }
+})
+key35.addEventListener('click', function(){
+    key35.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key35.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key35.getAttribute('lowerCaseName');
+        }
+})
+key36.addEventListener('click', function(){
+    key36.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key36.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key36.getAttribute('lowerCaseName');
+        }
+})
+key37.addEventListener('click', function(){
+    key37.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key37.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key37.getAttribute('lowerCaseName');
+        }
+})
+key38.addEventListener('click', function(){
+    key38.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key38.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key38.getAttribute('lowerCaseName');
+        }
+})
+key39.addEventListener('click', function(){
+    key39.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key39.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key39.getAttribute('lowerCaseName');
+        }
+})
+key40.addEventListener('click', function(){
+    key40.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key40.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key40.getAttribute('lowerCaseName');
+        }
+})
+
+key43.addEventListener('click', function(){
+    key43.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key43.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key43.getAttribute('lowerCaseName');
+        }
+})
+key44.addEventListener('click', function(){
+    key44.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key44.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key44.getAttribute('lowerCaseName');
+        }
+})
+key45.addEventListener('click', function(){
+    key45.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key45.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key45.getAttribute('lowerCaseName');
+        }
+})
+key46.addEventListener('click', function(){
+    key46.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key46.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key46.getAttribute('lowerCaseName');
+        }
+})
+key47.addEventListener('click', function(){
+    key47.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key47.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key47.getAttribute('lowerCaseName');
+        }
+})
+key48.addEventListener('click', function(){
+    key48.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key48.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key48.getAttribute('lowerCaseName');
+        }
+})
+key49.addEventListener('click', function(){
+    key49.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key49.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key49.getAttribute('lowerCaseName');
+        }
+})
+key50.addEventListener('click', function(){
+    key50.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key50.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key50.getAttribute('lowerCaseName');
+        }
+})
+key51.addEventListener('click', function(){
+    key51.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key51.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key51.getAttribute('lowerCaseName');
+        }
+})
+key52.addEventListener('click', function(){
+    key52.classList.toggle('remove');
+    if (caps_lock_key.classList.contains('active')) {
+        textArea.innerHTML += key52.getAttribute('keyName');
+        } else {
+            textArea.innerHTML += key52.getAttribute('lowerCaseName');
+        }
+})
+key53.addEventListener('click', function(){
+    key53.classList.toggle('remove');
+    textArea.innerHTML += key53.getAttribute('keyName');
+})
+
+key61.addEventListener('click', function(){
+    key61.classList.toggle('remove');
+    textArea.innerHTML += key61.getAttribute('keyName');
+})
+key62.addEventListener('click', function(){
+    key62.classList.toggle('remove');
+    textArea.innerHTML += key62.getAttribute('keyName');
+})
+key63.addEventListener('click', function(){
+    key63.classList.toggle('remove');
+    textArea.innerHTML += key63.getAttribute('keyName');
+})
+
+key29.addEventListener('click', function(){
+    key29.classList.toggle('active');
+    //textArea.innerHTML += key29.getAttribute('keyName');
+})
+
+key58.addEventListener('click', function(){
+    key58.classList.toggle('remove');
+    textArea.innerHTML += ' ';
+})
+
+key41.addEventListener('click', function(){
+    key41.classList.toggle('remove');
+    textArea.innerHTML += '\n';
+})
+
+//key14.addEventListener('click', function(){
+  //  key14.classList.toggle('remove');
+    //backspace
+//})
+
+
 night_mode.addEventListener('click', function(){
     toggle_circle.classList.toggle('active');
     body.classList.toggle('active');
@@ -561,4 +912,4 @@ colors_input.addEventListener('input', function(){
     keyboard_lights.style.background = colors_input.value;
 })
 
-})
+})  

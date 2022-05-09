@@ -86,9 +86,9 @@ body.active{
     color: #fff;
 }
 .keys.remove {
-    animation: keys_animation 0.5s forwards;
+    animation: keys_animation 0.2s forwards;
 }
-/*@keyframes keys_animation {
+@keyframes keys_animation {
     0% {
         background-color: #333;
         color: #fff;
@@ -97,7 +97,7 @@ body.active{
         background-color: #fff;
         color: #000;
     }
-}*/
+}
 .night_mode {
     width: 80px;
     height: 30px;
@@ -147,7 +147,7 @@ body.active{
 .keys.keys_night.remove {
     animation: keys_night_animation 0.5s forwards;
 }
-/*@keyframes keys_night_animation {
+@keyframes keys_night_animation {
     0% {
         background-color: #fff;
         color: #333;
@@ -156,7 +156,7 @@ body.active{
         background-color: #3c3c3c;
         color: #fff;
     }
-}*/
+}
 .change_light_color {
     width: 100px;
     height: 50px;
