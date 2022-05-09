@@ -374,7 +374,7 @@ let up_key = document.querySelector('.up_key');
 let left_key = document.querySelector('.left_key');
 let down_key = document.querySelector('.down_key');
 let right_key = document.querySelector('.right_key');
-let func_key = document.querySelector('.func_key');
+//let func_key = document.querySelector('.func_key');
 
 
 let text_input = document.querySelector('.text');
@@ -448,7 +448,10 @@ window.addEventListener('keydown', function(e){
         if (e.code == 'NumpadEnter') {
             enter_key.classList.add('active');
         }
-        
+        if (e.code == 'MetaLeft') {
+            win_key.classList.add('active');
+        }
+                
     }
         if (e.code == 'CapsLock') {
             caps_lock_key.classList.toggle('active');
@@ -529,6 +532,10 @@ window.addEventListener('keyup', function(e){
         if (e.code == 'NumpadEnter') {
             enter_key.classList.remove('active');
             enter_key.classList.remove('remove');
+        }
+        if (e.code == 'MetaLeft') {
+            win_key.classList.remove('active');
+            win_key.classList.remove('remove');
         }
     }
 })
